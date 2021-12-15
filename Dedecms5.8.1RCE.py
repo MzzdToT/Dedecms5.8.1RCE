@@ -98,10 +98,10 @@ if __name__ == '__main__':
 						help="Target URL; Example:http://ip:port")
 	arg.add_argument("-f",
 						"--file",
-						help="Target URL; Example:url.txt")
+						help="url_list; Example:url.txt")
 	arg.add_argument("-c",
 					"--cmd",
-					help="Target URL; Example:http://ip:port")
+					help="command; Example:whoami")
 	args=arg.parse_args()
 	url=args.url
 	filename=args.file
